@@ -1,0 +1,102 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel='stylesheet' href="{% static 'css/style.css' %}" type='text/css'/>
+
+    <title>Proyect</title>
+</head>
+<body>
+<section>
+    <div class="head">
+        <div class="logo">
+            <a href="http://127.0.0.1:8000/">Home</a>
+        </div>
+
+        <nav class="navbar">
+            <a href="http://127.0.0.1:8000/cuerrency/">СПРОС</a>
+            <a href="http://127.0.0.1:8000/geographic/">ГЕОГРАФИЯ</a>
+            <a href="http://127.0.0.1:8000/habilities/">НАВЫКИ</a>
+            <a href="http://127.0.0.1:8000/vacancy/">ВАКАНСИИ</a>
+        </nav>
+    </div>
+<div class="divbanner">
+        <header class="banner"></header>
+        <div class="text">
+            <h1><b>{{profession.title}}</b></h1>
+            <p>Все, что вы можете себе представить, вы можете создать.</p>
+        </div>
+</div>
+</section>
+
+<section>
+    <div class="colum">
+        <div class="imga">
+        <img class="phone" src="https://cdn.dribbble.com/users/427857/screenshots/14390260/media/91640739c64610b052b952a7335f7d1a.png?compress=1&resize=1000x750&vertical=top" alt="photo">
+    </div>
+    <div class="description">
+        <H1>Чем занимается веб-дизайнер?</H1>
+        <p>{{profession.description }}</p>
+    </div>
+    </div>
+</section>
+<section>
+    <div class="colum">
+        <div class="description_ha">
+            <H1>Какие навыки вам нужны?</H1>
+            <p>{{ profession.habilitis }}</p>
+         </div>
+        <div class="imga">
+            <img class="phone" src="https://media.istockphoto.com/id/1071652068/photo/professional-development-programmer-working-in-programming-website-a-software-and-coding.jpg?s=612x612&w=0&k=20&c=INpAud3saPV_f0XqTX3WEuoE3LzBXZnYuAwk-NaOvt4=" alt="photo">
+        </div>
+    </div>
+</section>
+
+
+<section class="companyban">
+    <div >
+        <H1 class="text_h1">Где вы можете работать?</H1>
+        <p class="text_p">{{profession.company }}</p>
+    </div>
+</section>
+
+
+
+<section>
+    <div class="colum">
+        <div class="imga_phone">
+        <img class="phone" src="https://cdn.dribbble.com/users/427857/screenshots/14442583/media/5189f9e0af00bb041cdf6acf0810da52.png?compress=1&resize=1000x750&vertical=top" alt="photo" >
+    </div>
+    <div class="description">
+        <H1>Сколько может заработать веб-дизайнер?</H1>
+        <p>{{profession.salary }}</p>
+    </div>
+    </div>
+</section>
+
+<section class="vacante">
+    <div>
+        <H1>ВАКАНСИИ: {{ profession.date_vacancy }}</H1>
+    </div>
+</section>
+
+<section>
+    <div class="colum_eka">
+        <div class="imga">
+            <img class="phone" src="https://cdn.dribbble.com/userupload/4175502/file/original-2bb22cedcd294fc26ec376aadb1c1694.jpg?compress=1&resize=1200x600" alt="photo">
+        </div>
+       <div class="description_eka">
+        <H1>EKATERIMBURGO</H1>
+        <p>{{profession.region}}</p>
+        </div>
+    </div>
+</section>
+<footer class="footer">
+    <h1>Кампос Леинес Эдисон Алехандро - РИ-210947 </h1>
+</footer>
+</body>
+</html>

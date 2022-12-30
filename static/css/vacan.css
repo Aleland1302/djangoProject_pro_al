@@ -1,0 +1,32 @@
+.bloques{
+    border-radius: 64px;
+    filter: drop-shadow(2px 4px 6px black);
+    background-color: #ffffff;
+    width: 1080px;
+    transition: background .3s,border .3s,border-radius .3s,box-shadow .3s;
+    height: 510px;
+    margin: -71px auto 63px auto;
+    padding-top: 29px;
+}
+.element_block{
+    display: flex;
+    background-color: #ffffff;
+    width: 990px;
+    height: 419px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+.columna{
+    text-align: center;
+    line-height: 0.5;
+    display: flex;
+    width: 444px;
+    height: 419px;
+    padding: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: auto;
+}

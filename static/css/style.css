@@ -1,0 +1,194 @@
+.head{
+    margin-top: -3px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: #171717;
+    position:  fixed;
+    width: 101%;
+    z-index: 100;
+    margin-left: -19px;
+}
+.navbar{
+    display: flex;
+    margin-right: 10px;
+
+}
+.logo{
+    margin-left: 30px;
+
+}
+.logo a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+
+}
+.navbar a{
+    display: block;
+    padding: 20px 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+
+}
+.navbar a:hover{
+    background: #3f3f3f;
+}
+
+
+/*banner*/
+
+.banner{
+        margin: -10px -8px -10px -10px;
+        display: flex;
+        height: 50vh !important;
+        background: url(https://mir-s3-cdn-cf.behance.net/project_modules/fs/d7a1b3118184743.608421fbf0297.png)no-repeat center ;
+        filter: brightness(26%);
+        background-size: cover;
+    }
+.text{
+        line-height: 0;
+        position: absolute;
+        top: 194px; left: 11%;
+        transform:translate(-10%, -50%);
+        width: 98%;
+        text-align: center;
+        color: #fff;
+        font-size: 30px;}
+
+.text h1{
+    font-size: 50px;
+}
+
+
+
+    /*Descripcion*/
+.colum{
+        margin: 59px 60px 44px 69px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+.description{
+        margin-bottom: 20px;
+        width: 535px;
+        text-align: center;
+        margin-left: 84px;
+        display: flex;
+        flex-wrap: wrap ;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+    }
+.description h1{
+        font-size: 39px;
+    }
+.description p{
+        font-size: 20px;
+        margin-top: -27px;
+    }
+.phone{
+        border-radius: 24px;
+        filter: drop-shadow(2px 4px 6px #414141);
+        height: 457px;
+    }
+
+
+.companyban{
+
+        background: url("https://images.unsplash.com/photo-1590402494682-cd3fb53b1f70?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80");
+        margin: -10px -8px -10px -10px;
+        display: flex;
+        height: 50vh !important;
+        background-size: cover;
+        background-position: center;
+        align-items: center;
+        justify-content: center;
+    }
+.text_company{
+        filter: drop-shadow(2px 4px 6px black);
+        text-align: center;
+        font-size: 50px;
+        color: #fff;
+    }
+.text_h1{
+        filter: drop-shadow(2px 4px 6px black);
+        text-align: center;
+        font-size: 50px;
+        color: #fff;
+    }
+.text_p{
+        margin-top: -35px;
+        filter: drop-shadow(2px 4px 6px black);
+        text-align: center;
+        font-size: 40px;
+        color: #fff;
+    }
+.colum_eka{
+        margin: 59px 60px 44px -59px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+.description_eka{
+        margin-bottom: 20px;
+        width: 535px;
+        text-align: center;
+        margin-left: 35px;
+        font-size: 20px;
+        display: flex;
+        flex-wrap: wrap ;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+
+
+    }
+.description_eka p{
+        font-size: 20px;
+        margin-top: -27px;
+    }
+.vacante{
+        border-radius: 29px;
+        margin: 96px 88px 69px 88px;
+        font-size: 49px;
+        text-align: center;
+        background-color: #DFDAD9;
+        filter: invert(1);
+    }
+.description_ha{
+        margin-bottom: 20px;
+        width: 535px;
+        text-align: center;
+        margin-left: 84px;
+        margin-right: 61px;
+        display: flex;
+        flex-wrap: wrap ;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+    }
+.description_ha h1{
+        font-size: 39px;
+    }
+.description_ha p{
+        font-size: 20px;
+        margin-top: -27px;
+    }
+
+.footer{
+        display: flex;
+        background-color: #171717;
+        align-items: center;
+        flex-wrap: nowrap;
+        justify-content: center;
+        color: #ffff;
+        font-size: 15px;
+        margin-left: -10px;
+        margin-right: -7px;
+        margin-bottom: -9px;
+    }
